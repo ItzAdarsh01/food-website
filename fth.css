@@ -1,0 +1,145 @@
+*{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Lobster', cursive;
+}
+#navbar{
+    display:flex;
+    
+}
+#logo{
+   margin:2px 5px;
+   padding:2px;
+   z-index: -11;
+}
+#logo img{
+ margin:1px;
+}
+#navbar{
+    position: relative;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+   height:100%;
+   width:100%;
+   z-index: -10;
+   opacity:0.35;
+}
+#navbar ul{
+    display:flex;
+}
+#navbar ul li{
+list-style: none;
+font-size: medium;
+}
+#navbar ul li a{
+    display:block;
+    padding:15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color:rgb(95, 237, 237);
+}
+#home{
+    display:flex;
+    flex-direction:column;
+    padding:2px 25px;
+    height:500px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content:"";
+    position:absolute;
+    background: url('pic2.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 98.5%;
+    z-index: -10;
+    opacity: 0.5;
+}
+
+#home h1{
+    color:rgb(88, 12, 211);
+    text-align: center;
+}
+#home p{
+    color:black;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.klo{
+    font-size: 1.5rem;
+    padding:10px;
+}
+span{
+color:rgb(224, 13, 132);
+}
+.btn{
+    color:rgb(88, 12, 211);
+    padding:4px;
+    border:2px solid white;
+    border-radius: 15px;
+    background-color:rgb(240, 209, 151);
+    font-size:1.25rem ;
+    cursor:pointer;
+}
+.btn:hover{
+    color:rgb(95, 237, 237);
+}
+#serv{
+    margin: 10px;
+    display: flex;
+
+}
+.hpri{
+    border: 2px solid gray;
+    border-radius: 15px;
+    text-align: center;
+}
+.box{
+    border:2px solid rgb(96, 229, 24);
+    border-radius: 20px;
+    padding:10px;
+    margin:4px;
+    background-color: rgb(235, 235, 194);
+}
+.box img{
+  display: block;
+  margin: auto;
+}
+#c-sec{
+
+}
+.hp{
+    text-align: center;
+    font-size: 30px;
+    
+}
+#abcd{
+ display:flex;
+}
+.clnd{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin: auto;
+}
+.clnd img{
+    height:70px;
+    width:70px;
+  
+}
+.cln{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding: 25px;
+    margin: auto;
+}
+.cln img{
+    height: 55px;
+    width:55px;
+}
